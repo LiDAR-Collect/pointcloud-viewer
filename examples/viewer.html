@@ -58,7 +58,7 @@
 		});
 		
 		// Load and add point cloud to scene
-		Potree.loadPointCloud("../pointclouds/vol_total/cloud.js", "sigeom.sa", e => {
+		Potree.loadPointCloud("https://my-pointcloud-data-2026.s3.us-east-2.amazonaws.com/output_folder/metadata.json", "sigeom.sa", e => {
 			let scene = viewer.scene;
 			let pointcloud = e.pointcloud;
 			
